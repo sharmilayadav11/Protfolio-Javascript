@@ -49,6 +49,7 @@
         nav ul li a:hover {
 
             color: rgb(204, 53, 171);
+            font-size: 1.1rem;
 
         }
 
@@ -83,6 +84,10 @@
             color: rgb(151, 16, 151);
             font-size: 3.5rem;
         }
+
+        #element {
+            color: rgb(151, 16, 151);
+        }
     </style>
 </head>
 
@@ -107,7 +112,9 @@
             <div class="leftsection">Hi, My name is <span class="purple"> Sharmila😌</span>
                 <a href="/"></a>
                 <div>and I am a passinate
-                    <div>Web Developer</div>
+                    <div>Web Developer...</div>
+                    <!-- Element to contain animated typing -->
+                    <span id="element"></span>
                 </div>
             </div>
             <div class="rightsection">
@@ -119,6 +126,14 @@
 
         </section>
     </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: [' Web Designer..', '&amp; Video Editor...'],
+            typeSpeed: 50,
+        });
+    </script>
 
 </body>
 
