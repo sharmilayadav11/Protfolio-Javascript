@@ -27,7 +27,7 @@
             justify-content: space-around;
             align-items: center;
             background-color: rgb(42, 4, 112);
-            height: 60px;
+            height: 75px;
         }
 
         nav ul {
@@ -53,18 +53,23 @@
 
         }
 
+        .footer .footer-1 ul li:hover {
+            color: rgb(204, 53, 171);
+            font-size: 1.1rem;
+        }
+
         .left {
             font-size: 1.5rem;
         }
 
-        .firstclass {
+        .firstsection {
             display: flex;
             justify-content: space-around;
             align-items: center;
-            margin: 80px 0;
+            margin: 50px 0;
         }
 
-        .firstclass>div {
+        .firstsection>div {
             width: 30%;
 
         }
@@ -95,21 +100,75 @@
             color: rgb(151, 16, 151);
         }
 
-        .secondclass {
+        .secondsection {
             max-width: 80vw;
             margin: auto;
             height: 80vh;
         }
 
-        .secondclass h1 {
+        .secondsection h1 {
             font-size: 1.9rem;
         }
 
-        .secondclass .horizontal-line {
+        .secondsection .horizontal-line {
             background: white;
             width: 80vw;
             height: 2px;
             margin: 56px 0;
+            display: flex;
+        }
+
+        .horizontal-line .vertical-line {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 112px;
+        }
+
+        .image-top {
+            width: 25px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+
+        }
+
+
+        .vertical-text {
+            position: relative;
+            top: 86px;
+            width: 150px;
+            font-size: 10px;
+        }
+
+        .footer {
+            height: 200px;
+            background-color: #0e0e1a;
+            display: flex;
+            align-items: center;
+
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 250px;
+            margin: 0px 130px;
+
+        }
+
+        .footer-text-center {
+            text-align: center;
+            color: white;
+            padding: 12px 0;
         }
     </style>
 </head>
@@ -131,7 +190,7 @@
         </nav>
     </header>
     <main>
-        <section class="firstclass">
+        <section class="firstsection">
             <div class="leftsection">Hi, My name is <span class="purple"> Sharmila😌</span>
                 <a href="/"></a>
                 <div>and I am a passinate
@@ -145,12 +204,99 @@
             </div>
         </section>
         <hr>
-        <section class="secondclass">
+        <section class="secondsection">
             <span class="text-grey">What I have Done So Far😌 </span>
             <h1>Work Experiences</h1>
-            <div class="horizontal-line"></div>
+            <div class="horizontal-line">
+                <div class="vertical-line">
+                    <img src="bg.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        WordPress Developer(2016-2017/2022-now)
+                    </div>
+                    <div class="vertical-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores aliquid fuga debitis excepturi
+                        doloribus cum iusto! Minus harum obcaecati odit!
+                    </div>
+                </div>
+                <div class="vertical-line">
+                    <img src="bg.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        YouTuber (2019-2023)
+                    </div>
+                    <div class="vertical-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores aliquid fuga debitis excepturi
+                        doloribus cum iusto! Minus harum obcaecati odit!
+                    </div>
+                </div>
+                <div class="vertical-line">
+                    <img src="bg.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        HTML,CSS,JS,Figma Developer(2021-2022)
+                    </div>
+                    <div class="vertical-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores aliquid fuga debitis excepturi
+                        doloribus cum iusto! Minus harum obcaecati odit!
+                    </div>
+                </div>
+                <div class="vertical-line">
+                    <img src="bg.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        Python Developer(2022-2023)
+                    </div>
+                    <div class="vertical-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores aliquid fuga debitis excepturi
+                        doloribus cum iusto! Minus harum obcaecati odit!
+                    </div>
+                </div>
+                <div class="vertical-line">
+                    <img src="bg.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        React JS (2023-now)
+                    </div>
+                    <div class="vertical-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores aliquid fuga debitis excepturi
+                        doloribus cum iusto! Minus harum obcaecati odit!
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-1">
+                <h4>Sharmila's Developer Protfolio</h4>
+            </div>
+            <div class="footer-1">
+                <ul>
+                    <li>Home</li>
+                    <li>About Me</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-1">
+                <ul>
+                    <li>Home</li>
+                    <li>About Me</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-1">
+                <ul>
+                    <li>Home</li>
+                    <li>About Me</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+
+
+        </div>
+        <div class="footer-text-center">
+            www.sharmila.allinone.mom<a href="https://sharmila.allinone.mom/" target="new">↗</a> | All right reserved
+        </div>
+    </footer>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <!-- Setup and start animation! -->
     <script>
