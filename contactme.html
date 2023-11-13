@@ -7,14 +7,11 @@
     <title>Contact Me Form</title>
     <style>
         /* Add some basic styling for the form */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
+
 
         form {
             max-width: 400px;
-            margin: 0 auto;
+            margin: 25px auto;
         }
 
         label {
@@ -81,6 +78,9 @@
             if (name.trim() === '' || email.trim() === '' || message.trim() === '') {
                 alert('Please fill in all fields');
                 return;
+            }
+            else {
+                alert('Your message has been sent...')
             }
 
             // In a real-world scenario, you would send the form data to a server using AJAX or fetch

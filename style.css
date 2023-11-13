@@ -137,7 +137,7 @@ nav ul li a:hover {
 
 .footer {
     height: 200px;
-    background-color: #0e0e1a;
+    background-color: rgb(42, 4, 112);
     display: flex;
     align-items: center;
 
